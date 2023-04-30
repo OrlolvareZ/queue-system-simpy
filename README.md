@@ -15,3 +15,14 @@ A self-service store normally has 3 servers operating, from 7:00 am to 22:00 pm,
 5. Minimum waiting time of a customer
 6. Effective time worked per server
 7. Based on the results obtained, what is your recommendation regarding the number of cash registers: shall the number of servers be maintained, increased or decreased?
+
+## Get started!
+
+```
+    # To get the repo
+    git clone https://github.com/OrlolvareZ/queue-system-simpy.git
+```
+```
+    # To get numpy and simpy, if you don't already have them
+    pip install -r requirements.txt
+```
