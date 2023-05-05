@@ -26,3 +26,15 @@ A self-service store normally has 3 servers operating, from 7:00 am to 22:00 pm,
     # To get numpy and simpy, if you don't already have them
     pip install -r requirements.txt
 ```
+
+## Contributing
+
+If you want to contribute to this project, install the `nbdev` package, that makes merging .ipynb files easier (by installing git hooks that only send changes regarding cell code).
+
+```
+    pip install nbdev2
+    # and, in your repo folder:
+    nbdev_install_hooks
+```
+
+See more about the package [here](https://nbdev.fast.ai/tutorials/git_friendly_jupyter.html).
