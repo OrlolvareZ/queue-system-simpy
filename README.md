@@ -22,11 +22,11 @@ A self-service store normally has 3 servers operating, from 7:00 am to 22:00 pm,
 
 ## Get started!
 
-```
+```powershell
     # To get the repo
     git clone https://github.com/OrlolvareZ/queue-system-simpy.git
 ```
-```
+```powershell
     # To get numpy and simpy, if you don't already have them
     pip install -r requirements.txt
 ```
@@ -35,7 +35,7 @@ A self-service store normally has 3 servers operating, from 7:00 am to 22:00 pm,
 
 If you want to contribute to this project, install the `nbdev` package, that makes merging .ipynb files easier (by installing git hooks that only send changes regarding cell code).
 
-```
+```powershell
     pip install nbdev2
     # and, in your repo folder:
     nbdev_install_hooks
