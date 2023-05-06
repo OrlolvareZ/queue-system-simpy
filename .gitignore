@@ -1,4 +1,5 @@
 venv
 corridas
+run_results
 .gitattributes
 .gitconfig
